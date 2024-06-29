@@ -7,7 +7,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import PassiveAggressiveRegressor
 
-data = pd.read_csv("./archive/Instagram data.csv", encoding = 'latin1')
+data = pd.read_csv("./Instagram data.csv", encoding = 'latin1')
 
 
 data.isnull().sum()
